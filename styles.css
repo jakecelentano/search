@@ -1,0 +1,35 @@
+h1{
+	color:blue;
+	text-align: center;
+
+}
+
+#searchlinks{
+	text-align: right;
+}
+
+
+#form-inline{
+	border-radius: 15px;
+	border-width: 1px;
+
+}
+
+
+#searchbar{
+	border-radius: 15px;
+	border-width: 1px;
+
+}
+#searchform{
+	border-radius: 15px;
+	border-width: 1px;
+
+}
+
+
+.center_div{
+    margin: 0 auto;
+    width:80% /* value of your choice which suits your alignment */
+}
+
