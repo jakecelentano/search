@@ -6,23 +6,23 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <h1>Google</h1>
-    	<div id="searchlinks" class="container">
+    	<div class="searchlinks">
 			<ul class ="list-inline">
 	    		<li class ="list-inline-item"><a link href="search.html">Search</a></li>
 	    		<li class ="list-inline-item"><a link href="asearch.html">Advanced</a></li>
 	    		<li class ="list-inline-item"><a link href="isearch.html">Image</a></li>
 	    	</ul>
-	    	</div>
+	    </div>
 
-            <div class="searchform">
-                <div class="input-group mb-3 center_div">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text" id="basic-addon1">@</span>
-                    </div>
-                    <input type="text" name="q"class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
-                </div>
-            </div>
+
+        <div class="login_div">
+                <form class="login_form" action="https://google.com/search">
+                    <input type="text" name="q" class="form-control">
+                    <input type="submit" value="Google Search" id="searchbutton">
+                </form>
+        </div>
+
+
 
     </body>
 </html>

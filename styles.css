@@ -1,35 +1,55 @@
-h1{
-	color:blue;
-	text-align: center;
 
-}
-
-#searchlinks{
-	text-align: right;
-}
-
-
-#form-inline{
-	border-radius: 15px;
-	border-width: 1px;
-
-}
-
-
-#searchbar{
-	border-radius: 15px;
-	border-width: 1px;
-
-}
 #searchform{
-	border-radius: 15px;
-	border-width: 1px;
-
+	text-align: center;
 }
-
 
 .center_div{
     margin: 0 auto;
-    width:80% /* value of your choice which suits your alignment */
+    width:50% /* value of your choice which suits your alignment */
 }
+
+.vertical_center{
+    margin-top: : : 0 auto;
+    margin-bottom: : 0 auto;
+    vertical-align: middle;
+}
+
+.searchlinks{
+   position:absolute;
+   top:0;
+   right:0;
+   padding: 1%;
+  }
+
+  #searchbutton{
+  	position: relative;
+  	margin: 0 auto;
+
+  }
+
+
+  .login_div {
+    position: absolute;
+
+    width: 300px;
+    height: 300px;
+
+    /* Center form on page horizontally & vertically */
+    top: 50%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -150px;
+}
+
+.login_form {
+    width: 300px;
+    height: 300px;
+
+    background: transparent;
+    border-radius: 15px;
+
+    margin: 0;
+    padding: 0;
+}
+
 
