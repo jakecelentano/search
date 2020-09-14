@@ -1,55 +1,94 @@
 
-#searchform{
-	text-align: center;
-}
-
-.center_div{
-    margin: 0 auto;
-    width:50% /* value of your choice which suits your alignment */
-}
-
-.vertical_center{
-    margin-top: : : 0 auto;
-    margin-bottom: : 0 auto;
-    vertical-align: middle;
-}
-
 .searchlinks{
    position:absolute;
    top:0;
    right:0;
-   padding: 1%;
-  }
-
-  #searchbutton{
-  	position: relative;
-  	margin: 0 auto;
+   padding: .5%;
 
   }
 
+  .otherlinks{
+   position:absolute;
+   top:0;
+   left:0;
+   padding: .5%;
 
-  .login_div {
-    position: absolute;
+  }
 
-    width: 300px;
-    height: 300px;
+#searchbutton{
+	position: relative;
+	margin: 0 auto;
+  border-width: 0px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font: sans-serif;
+  font-size: 14px;
+  border-radius: 5px;
 
-    /* Center form on page horizontally & vertically */
-    top: 50%;
-    left: 50%;
-    margin-top: -150px;
-    margin-left: -150px;
+
 }
 
-.login_form {
-    width: 300px;
-    height: 300px;
+#searchbutton:hover{
+  filter: brightness(102%);
+  box-shadow: 0 0 0 1px grey;
+}
 
-    background: transparent;
-    border-radius: 15px;
+.searchdiv {
+  position: absolute;
 
-    margin: 0;
-    padding: 0;
+  width: 300px;
+  height: 300px;
+
+  /* Center form on page horizontally & vertically */
+  top: 40%;
+  left: 50%;
+  margin-top: -320px;
+  margin-left: -250px;
+}
+
+.searchform {
+  width: 500px;
+  height: 100px;
+
+  background: transparent;
+  border-radius: 15px;
+
+  margin: 0;
+  padding: 0;
+  background: fas fa-search ;
+}
+
+#searchbar:hover{
+  filter: brightness(102%);
+  box-shadow: 0 0 0 .5px #d3d3d3;
+}
+
+
+.form-control {
+  border-radius: 15px;
+}
+
+.buttongroup{
+  margin-left: 125px;
+  margin-top: 30px;
+
+}
+
+
+.googlebanner{
+  padding: 30px;
+  margin-left: 80px;
+}
+
+.commitments{
+  padding-top: 30px;
+  font-size: 12px;
+  display: inline-block;
+  white-space: nowrap;
+  padding-left: 80px;
+
 }
 
 
