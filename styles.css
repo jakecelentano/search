@@ -91,4 +91,81 @@
 
 }
 
+#advanced-header{
+  color: #D93025;
+  font: 20px arial, sans-serif;
+  margin: 20px 40px;
+
+}
+
+
+#adv{
+  border-radius: 0px;
+  width: 572px;
+  height: 29px;
+
+  
+}
+#adv-smaller{
+  border-radius: 0px;
+  width: 260px;
+  height: 29px;
+  
+}
+
+
+.form-group{
+  font-size: 14px;
+  margin: 10px 10px;
+  padding: 2px 20px;
+
+}
+
+
+#colorstrip{
+    width: 100%; height: 60px;
+    border-style: solid;
+    border-color: #f1f1f1;
+    background-color: #f1f1f1;
+}
+
+#googlebanner{
+  padding-left: : 1%;
+}
+
+#advanced-instructions{
+  size: 16px;
+  font-family: Arial, sans-serif;
+  color: #333333;
+  padding: 0px 30px;
+  
+}
+
+#adv-button-row{
+
+  left: 635px;
+
+  
+
+}
+
+#adv-button{
+
+  background-color: : #4d90fe;
+
+
+}
+
+.form-inline{
+  padding-left: 50px;
+}
+
+.col-form-label{
+  width: 150px;
+  white-space: nowrap;
+  left: 10%;
+}
+
+
+
 

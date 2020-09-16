@@ -9,30 +9,49 @@
 </head>
 
 <body>
+    <div id=colorstrip>
+        <a href="search.html"><img src="google2.png" width="108px" height="61px" id="googlebanner"></a>
+    </div>
     <div class="searchlinks">
         <ul class="list-inline">
             <li class="list-inline-item"><a link href="search.html">Search</a></li>
         </ul>
     </div>
-    <div class="otherlinks">
-        <ul class="list-inline">
-            <li class="list-inline-item"><a link href="search.html">About</a></li>
-            <li class="list-inline-item"><a link href="asearch.html">Store</a></li>
-        </ul>
+    <div class="page-header" id="advanced-header">
+        <h5>Advanced Search</h5>
     </div>
-    <h2>Advanced Search</h2>
+    <hr class="my-4">
+    <div class="col-sm-4" id="advanced-instructions">
+        Find pages with...
+    </div>
+    <br>
     <form>
-        <div class="form-group row col-sm-2">
-            <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
-            <div class="col-sm-10">
-                <input type="text" class="form-control" >
+        <div class="form-group row text-inline">
+            <label class="col-form-label">all these words:</label>
+            <div class="form-inline">
+                <input type="text" class="form-control" id="adv">
             </div>
         </div>
-        <div class="form-group row col-sm-2">
-            <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
-            <div class="col-sm-10">
-                <input type="text" class="form-control">
+        <div class="form-group row text-inline">
+            <label class="col-form-label">the exact word of phrase:</label>
+            <div class="form-inline">
+                <input type="text" class="form-control" id="adv">
             </div>
+        </div>
+        <div class="form-group row text-inline">
+            <label class="col-form-label">any of these words:</label>
+            <div class="form-inline">
+                <input type="text" class="form-control" id="adv">
+            </div>
+        </div>
+        <div class="form-group row text-inline">
+            <label class="col-form-label">none of these words:</label>
+            <div class="form-inline">
+                <input type="text" class="form-control" id="adv">
+            </div>
+        </div>
+        <div class="col-sm-11" id="adv-button-row">
+            <button type="button" class="btn btn-primary btn-sm" id="adv-button">Advanced Search</button>
         </div>
     </form>
 </body>
