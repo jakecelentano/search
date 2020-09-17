@@ -1,43 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Google Images</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-        <link rel="stylesheet" href="styles.css">
-        <link rel="icon" href="https://lh3.googleusercontent.com/QUZSBMFFFYWHVWfShseSBVsL38AkY-KlTG2-wJ6tGmzc8Kk9uKFJHKdkz1kcff334UMb6Xj91srYSd2ZoNPrMLAEcxUbiePqiAwA">
-    </head>
-    <body>
-        <div class="searchlinks">
-            <ul class ="list-inline">
-                <li class ="list-inline-item"><a link href="search.html">Search</a></li>
-            </ul>
+
+<head>
+    <title>Google Images</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="https://lh3.googleusercontent.com/QUZSBMFFFYWHVWfShseSBVsL38AkY-KlTG2-wJ6tGmzc8Kk9uKFJHKdkz1kcff334UMb6Xj91srYSd2ZoNPrMLAEcxUbiePqiAwA">
+</head>
+
+<body>
+    <div class="searchlinks">
+        <ul class="list-inline">
+            <li class="list-inline-item"><a link href="search.html">Search</a></li>
+        </ul>
+    </div>
+    <div class="searchdiv">
+        <div class="googlebanner">
+            <img src="googlei.png">
         </div>
-        <div class="otherlinks">
-            <ul class ="list-inline">
-                <li class ="list-inline-item"><a link href="https://about.google">About</a></li>
-                <li class ="list-inline-item"><a link href="https://store.google.com/us/">Store</a></li>
-            </ul>
+        <form class="searchform" action="http://images.google.com/images">
+            <input type="text" name="q" class="form-control" id=searchbar autofocus>
+                    <div class="commitments">
+            <a link href="https://about.google/stories/black-trans-equality/">See how America is searching to support Black trans communities</a>
         </div>
+        </form>
+    </div>
+</body>
 
-
-        <div class="searchdiv">
-            <div class="googlebanner">
-                <img src="googlei.png">
-            </div>
-        
-                <form class="searchform" action="https://google.com/search">
-                    <input type="text" name="q" class="form-control" id =searchbar>
-                    <div class="buttongroup">
-                        <input type="submit" value="Google Search" id="searchbutton">
-                        <input type="submit" value="I'm Feeling Lucky" id="searchbutton">
-                    </div>
-                </form>
-                <div class="commitments">
-                    <a link href="https://sustainability.google/commitments/">Our commitments to climate change action over the next decade</a>
-                </div>
-
-
-
-        </div>
-    </body>
 </html>

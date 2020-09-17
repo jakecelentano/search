@@ -1,171 +1,153 @@
+.searchlinks {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1%;
 
-.searchlinks{
-   position:absolute;
-   top:0;
-   right:0;
-   padding: .5%;
+}
 
-  }
+.otherlinks {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 1%;
 
-  .otherlinks{
-   position:absolute;
-   top:0;
-   left:0;
-   padding: .5%;
+}
 
-  }
-
-#searchbutton{
-	position: relative;
-	margin: 0 auto;
-  border-width: 0px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 7px;
-  padding-bottom: 7px;
-  font: sans-serif;
-  font-size: 14px;
-  border-radius: 5px;
+#searchbutton {
+    position: relative;
+    margin: 0 auto;
+    border-width: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font: sans-serif;
+    font-size: 14px;
+    border-radius: 5px;
 
 
 }
 
-#searchbutton:hover{
-  filter: brightness(102%);
-  box-shadow: 0 0 0 1px grey;
+#searchbutton:hover {
+    filter: brightness(102%);
+    box-shadow: 0 0 0 1px grey;
 }
 
 .searchdiv {
-  position: absolute;
+    position: absolute;
 
-  width: 300px;
-  height: 300px;
+    width: 300px;
+    height: 300px;
 
-  /* Center form on page horizontally & vertically */
-  top: 40%;
-  left: 50%;
-  margin-top: -320px;
-  margin-left: -250px;
+    /* Center form on page horizontally & vertically */
+    top: 50%;
+    left: 50%;
+    margin-top: -320px;
+    margin-left: -250px;
 }
 
 .searchform {
-  width: 500px;
-  height: 100px;
+    width: 500px;
+    height: 100px;
 
-  background: transparent;
-  border-radius: 15px;
+    background: transparent;
+    border-radius: 15px;
 
-  margin: 0;
-  padding: 0;
-  background: fas fa-search ;
+    margin: 0;
+    padding: 0;
+    background: fas fa-search;
 }
 
-#searchbar:hover{
-  filter: brightness(102%);
-  box-shadow: 0 0 0 .5px #d3d3d3;
+#searchbar:hover {
+    filter: brightness(102%);
+    box-shadow: 0 0 0 .5px #d3d3d3;
 }
 
 
 .form-control {
-  border-radius: 15px;
+    border-radius: 15px;
 }
 
-.buttongroup{
-  margin-left: 125px;
-  margin-top: 30px;
-
-}
-
-
-.googlebanner{
-  padding: 30px;
-  margin-left: 80px;
-}
-
-.commitments{
-  padding-top: 30px;
-  font-size: 12px;
-  display: inline-block;
-  white-space: nowrap;
-  padding-left: 80px;
+.buttongroup {
+    margin-left: 125px;
+    margin-top: 30px;
 
 }
 
-#advanced-header{
-  color: #D93025;
-  font: 20px arial, sans-serif;
-  margin: 20px 40px;
+.googlebanner {
+    padding: 30px;
+    margin-left: 80px;
+}
+
+.commitments {
+    padding-top: 30px;
+    font-size: 12px;
+    display: inline-block;
+    white-space: nowrap;
+    padding-left: 80px;
 
 }
 
+#advanced-header {
+    color: #D93025;
+    font: 20px arial, sans-serif;
+    margin: 20px 40px;
 
-#adv{
-  border-radius: 0px;
-  width: 572px;
-  height: 29px;
-
-  
-}
-#adv-smaller{
-  border-radius: 0px;
-  width: 260px;
-  height: 29px;
-  
 }
 
-
-.form-group{
-  font-size: 14px;
-  margin: 10px 10px;
-  padding: 2px 20px;
+#adv {
+    border-radius: 0px;
+    width: 572px;
+    height: 29px;
 
 }
 
 
-#colorstrip{
-    width: 100%; height: 60px;
+.form-group {
+    font-size: 14px;
+    margin: 10px 10px;
+    padding: 2px 20px;
+
+}
+
+#colorstrip {
+    width: 100%;
+    height: 60px;
     border-style: solid;
     border-color: #f1f1f1;
     background-color: #f1f1f1;
 }
 
-#googlebanner{
-  padding-left: : 1%;
+#googlebanner {
+    padding-left: : 1%;
 }
 
-#advanced-instructions{
-  size: 16px;
-  font-family: Arial, sans-serif;
-  color: #333333;
-  padding: 0px 30px;
-  
-}
-
-#adv-button-row{
-
-  left: 635px;
-
-  
+#advanced-instructions {
+    size: 16px;
+    font-family: Arial, sans-serif;
+    color: #333333;
+    padding: 0px 30px;
 
 }
 
-#adv-button{
+#adv-button-row {
 
-  background-color: : #4d90fe;
+    left: 635px;
+}
 
+#adv-button {
+
+    background-color: : #4d90fe;
 
 }
 
-.form-inline{
-  padding-left: 50px;
+.form-inline {
+    padding-left: 50px;
 }
 
-.col-form-label{
-  width: 150px;
-  white-space: nowrap;
-  left: 10%;
+.col-form-label {
+    width: 150px;
+    white-space: nowrap;
+    left: 10%;
 }
-
-
-
-
