@@ -132,13 +132,15 @@
 }
 
 #adv-button-row {
+  padding: 50px;
 
-    left: 635px;
+
 }
 
 #adv-button {
 
     background-color: : #4d90fe;
+    float: right;
 
 }
 
@@ -150,4 +152,10 @@
     width: 150px;
     white-space: nowrap;
     left: 10%;
+}
+
+#fake-form{
+  width: 572px;
+  height: 29px;
+
 }
